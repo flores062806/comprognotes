@@ -1,0 +1,57 @@
+Repetitions / Looping
+
+4 Parts of the Loop
+1. Initialization
+   =>variable=> ctr= i
+"i" a common variable that stands for "iterator"
+"t" another variable that stands for "row"
+and "c" for coloumn 
+2. Controlling Condition - is the true/false test that controls the flow of a program.
+note : it wont stop if its true
+3. Body of Loop
+-> Instruction or Statement
+4. Update
+There are 2 types of update
+1. =>inc "increase"
+2.=>dec "decrease"
+
+    ctr--
+	--ctr
+	ctr=ctr-1
+	ctr/=3
+	Method
+	1. Counter-Controlled Loop
+	   -> is a loop that repeats a specific number of times.
+
+	2. Event-Controlled Loop
+	   -> is a loop that continues running until a specific event happens.
+          Unlike a counter-controlled loop, you do NOT know in advance how 
+		  many times it will repeat.
+		  
+Test Loop 
+  1. pre-test ==> testing the condition before starting
+     ex. : ATM MACHINES - inserting the card before your purpose
+  2. post-test ==> quite the opposite of pre-test
+   
+ 
+ C Loop Structure
+ 1. Do while
+       syntax: init; (1)
+	            body loop; (2) 
+				update; (3)
+				}while(controlling condtion) (4)
+		THIS IS AN EXAMPLE OF POST TEST
+    
+ 2. While
+       syntax: init; (1)
+               while(controllign condition) { (2)
+			   body of loop; (3)
+			   update; (4)
+			   }
+         PRE-TEST       			   
+	      
+ 3. For Loop 
+        syntax : for(init;controlling condition; update) {
+		            body of loop
+                }
+        PRE-TEST
